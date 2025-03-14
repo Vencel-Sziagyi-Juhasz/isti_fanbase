@@ -23,4 +23,6 @@ body {
 }
 #form {
     text-align: center;
+    text-align: justify;
+    background-color: rgb(228, 4, 4);
 }
