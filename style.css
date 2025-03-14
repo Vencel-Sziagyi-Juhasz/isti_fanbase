@@ -13,11 +13,14 @@ body {
 #gomb1 {
     font-size: medium;
     font-family: sans-serif;
-    color: mintcream;
+    color: rgb(0, 0, 0);
 }
 
 #fiok {
     font-size: medium;
     font-family: sans-serif;
-    color: mintcream;
+    color: rgb(0, 0, 0);
+}
+#form {
+    text-align: center;
 }
