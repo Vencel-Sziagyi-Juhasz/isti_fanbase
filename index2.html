@@ -11,17 +11,17 @@
 <body>
     <img src="Yutuka_logo_1.svg" alt="Yutuka">
     <form>
-        <table class="login" style="height: 200px; width: 200px;">
+        <table class="login" style="height: 200px; width: 200px;" id="tabla2">
             <tr>
                 <caption id="reg2">Regisztráció</caption>
                 <td>
                     <p>
                         <label for="nev">Adjon egy felhasználónevet</label>
-                        <input type="text" name="nev" id="nev">
+                        <input type="text" name="nev" id="nev" required>
                     </p>
                     <p>
                         <label for="email">Adja meg E-mail címét</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </p>
                     <p>
                         <label for="neme">Adja meg a nemét</label>
@@ -33,16 +33,21 @@
                     </p>
                     <p>
                         <label for="telefonszam">Adja meg telefonszámát</label>
-                        <input type="tel" name="telefonszam" id="telefonszam">
+                        <input type="tel" name="telefonszam" id="telefonszam" required>
                     </p>
                     <p>
                         <label for="jelszo">Adjon meg egy jelszavat</label>
-                        <input type="password" name="jelszo" id="jelszo">
+                        <input type="password" name="jelszo" id="jelszo" required>
                     </p>
                     <p>
                         <label for="szul">Adja meg születési dátumát</label>
-                        <input type="date" name="szul" id="szul">
+                        <input type="date" name="szul" id="szul" required>
                     </p>
+                    <p>
+                        <label for="el">Elfogadom a felhasználói feltételeket</label>
+                        <input type="radio" name="el" id="el" required>
+                    </p>
+                    <button>Regisztráció</button>
                 </td>
             </tr>
         </table>
