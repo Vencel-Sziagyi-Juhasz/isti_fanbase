@@ -12,7 +12,7 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    background-color: #6dc5ffa4
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%,rgba(63, 140, 255, 0.541) 100%);
 }
 
 .reg1 {
