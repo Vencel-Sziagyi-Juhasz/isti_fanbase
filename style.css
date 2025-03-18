@@ -47,3 +47,12 @@ h2 {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+#tabla2 {
+    color: #ffffff;
+    font-family: fantasy;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1mm;
+    font-size: 30px
+}
